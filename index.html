@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNSTC</title>
+</head>
+<body>
+<style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+</style>
+    
+    <h1>TamilNadu State Transport Corporation lmt</h1><br>
+    <p>A government of tamilnadu undertaking</p>
+<menu>
+    <table style="background-color:rgb(231, 183, 175);" cellpadding=10px; width="90%";>
+        <td><a href="index.html">Home</a></td>
+        <td><a href="cancel_ticket.html">Cancel_ticket</a></td>
+        <td><a href="view_ticket.html">View_ticket</a></td>
+        <td><a href="login.html">Login</a></td>
+    </table>
+</menu>
+<form action="available_services.html">
+<fieldset 
+    <legend><h3>Search and book tickets</h3></legend>
+    
+    <label for="from">From</label>
+    <input type="search" id="from" name="from"><br><br>
+    <label for="to">To</label>
+    <input type="text" id="to" name="to"><br><br>
+
+    <label for="journeyDate">JourneyDate</label>
+    <input type="date" id="journeyDate" name="journeyDate"><br><br>
+
+    <label for="time">Time</label>
+    
+    <select id="time" name="time">
+        <option value="Any" selected>Any</option>
+        <option value="Before 12pm">Before 12pm</option>
+        <option value="12pm-8pm">12pm-8pm</option>
+        <option value="8pm-12am">8pm-12am</option>
+    </select><br>
+    
+    <menu><button type="button">Search Available Services</button></menu>
+</fieldset>
+
+</form>
+
+
+</body>
+</html>
